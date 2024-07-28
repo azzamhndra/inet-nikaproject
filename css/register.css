@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, white, #e0efff, #a0c4ff);
+    box-sizing: border-box;
+}
+
+.daftar-btn {
+    background-color: #19A7CE;
+    color: white;
+    width: 60%;
+    padding: .5rem 0;
+}
+
+.wrapper {
+    width: 80vw;
+    height: 80vh;
+}
+
+.logo-inet {
+    width: 100%;
+    box-sizing: border-box;
+}

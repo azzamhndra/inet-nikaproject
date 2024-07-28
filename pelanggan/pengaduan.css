@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, white, #e0efff, #a0c4ff);
+}
+
+.konfirmasi-btn {
+    background-color: #19A7CE;
+    color: white;
+    padding: .5rem 2rem;
+}
+
+.konfirmasi-btn:hover{
+    background-color: #24849e;
+    color: white;
+}
+
+.wrapper {
+    height: 70vh;
+}
+
+.paket-header {
+    border-radius: 0 0 35px 0;
+    color: white;
+}
+
+.paket {
+    border-radius: 0 0 10px 10px;
+    height: 100%;
+}
+
+.ph1{ background-color: #001f54; }
+.ph2{ background-color: #ff007f; }
+.ph3{ background-color: #2100f5; }
+.ph4{ background-color: #ff7f00; }
+
+.paket {
+    width: 250px;
+}
+
+.xcontainer {
+    width: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-icon {
+    color: black;
+    font-size: 2rem;
+}
+
+.nav-text {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) { 
+    .paket {
+        width: 190px;
+    }
+    .paket-body p{
+        font-size: 1rem;
+    }
+    .paket-header h4{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (min-width: 992px) { 
+    .paket {
+        width: 215px;
+    }
+    .paket-body p{
+        font-size: 1rem;
+    }
+    .paket-header h4{
+        font-size: 1.3rem;
+    }
+ }
+
+@media (min-width: 1200px) {
+    .paket {
+        width: 215px;
+    }
+    .paket-body p{
+        font-size: 1rem;
+    }
+    .paket-header h4{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1400px) { 
+
+}

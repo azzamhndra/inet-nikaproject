@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, white, #e0efff, #a0c4ff);
+}
+
+.login-btn {
+    background-color: #19A7CE;
+    color: white;
+    width: 80%;
+    padding: .5rem 0;
+}
