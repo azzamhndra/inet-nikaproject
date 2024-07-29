@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, white, #e0efff, #a0c4ff);
+}
+
+.nav-icon {
+    color: black;
+    font-size: 2rem;
+}
+
+.nav-text {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.custom-container {
+    width: 90vw;
+    height: 80vh;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.konfirmasi-btn {
+    background-color: #19A7CE;
+    color: white;
+    padding: .5rem 2rem;
+}

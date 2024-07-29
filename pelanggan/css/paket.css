@@ -17,10 +17,6 @@ body {
     color: white;
 }
 
-.wrapper {
-    height: 70vh;
-}
-
 .paket-header {
     border-radius: 0 0 35px 0;
     color: white;
@@ -28,7 +24,6 @@ body {
 
 .paket {
     border-radius: 0 0 10px 10px;
-    height: 100%;
 }
 
 .ph1{ background-color: #001f54; }
@@ -36,12 +31,15 @@ body {
 .ph3{ background-color: #2100f5; }
 .ph4{ background-color: #ff7f00; }
 
-.paket {
-    width: 250px;
+
+.custom-container {
+    width: 90vw;
+    height: 80vh;
 }
 
-.xcontainer {
-    width: auto;
+.wrapper {
+    width: 100%;
+    height: 100%;
 }
 
 a {
@@ -59,44 +57,40 @@ a {
     padding: 0;
 }
 
+.modal-footer button{
+    width: 75px;
+}
+
+.paket-header h4{
+    font-size: 1.25rem;
+}
+
 @media (min-width: 576px) {
 
 }
 
 @media (min-width: 768px) { 
-    .paket {
-        width: 190px;
-    }
-    .paket-body p{
+
+}
+
+@media (min-width: 992px) { 
+
+ }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .paket-body p {
         font-size: 1rem;
     }
-    .paket-header h4{
-        font-size: 1.3rem;
+    .paket-header h4 {
+        font-size: 1rem;
+    }
+    .paket {
+        height: 20rem;
     }
 }
 
-@media only screen and (min-width: 992px) { 
-    .paket {
-        width: 215px;
-    }
-    .paket-body p{
-        font-size: 1rem;
-    }
-    .paket-header h4{
-        font-size: 1.3rem;
-    }
- }
+@media (min-width: 1201px) and (max-width: 1400px) {
 
-@media (min-width: 1200px) {
-    .paket {
-        width: 215px;
-    }
-    .paket-body p{
-        font-size: 1rem;
-    }
-    .paket-header h4{
-        font-size: 1.3rem;
-    }
 }
 
 @media (min-width: 1400px) { 
